@@ -10,5 +10,12 @@ public class LIst {
         for (String nombrecito: nombres){
             System.out.println(nombrecito);
         }
+        List<Integer> years=new ArrayList<>();
+        for(int i=0;i<=2022;i++){
+            years.add(i);
+        }
+        for(Integer year:years){
+            System.out.println(year);
+        }
     }
 }
